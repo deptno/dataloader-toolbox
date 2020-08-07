@@ -6,6 +6,7 @@ on:
       - master
     paths:
       - 'package.json'
+      - 'README.md'
 
 jobs:
   publish-package:
