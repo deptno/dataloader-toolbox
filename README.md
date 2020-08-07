@@ -1,5 +1,11 @@
 # dataloader-toolbox
 
+## install
+
+```shell script
+npm install dataloader-toolbox
+```
+
 ## api
 
 ### createDataLoaderSession
@@ -27,7 +33,7 @@ async function resolver(parent, args, context) {
 
 ### dataLoaderSorter
 
-`dataloader` does not support sorting, so you need to sorter
+`dataloader` does not support sorting, you need to sorter.
 
 #### code
 
