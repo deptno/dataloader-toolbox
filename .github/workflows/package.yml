@@ -7,6 +7,7 @@ on:
     paths:
       - 'package.json'
       - 'README.md'
+      - '.github/workflows/package.yml'
 
 jobs:
   publish-package:
