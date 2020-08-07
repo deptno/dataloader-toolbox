@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "outDir": "dist"
+  },
+  "exclude": [
+    "node_modules/**",
+    "src/**/*.spec.ts"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "type/**.ts"
+  ]
+}

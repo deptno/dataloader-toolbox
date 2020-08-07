@@ -1,0 +1,41 @@
+{
+  "name": "dataloader-toolbox",
+  "version": "0.1.0",
+  "description": "dataloader toolbox",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deptno/dataloader-toolbox.git"
+  },
+  "keywords": [
+    "dataloader",
+    "toolbox",
+    "datalorder",
+    "sorter",
+    "dataloader",
+    "session"
+  ],
+  "author": "Bonggyun Lee <deptno@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deptno/dataloader-toolbox/issues"
+  },
+  "homepage": "https://github.com/deptno/dataloader-toolbox#readme",
+  "peerDependencies": {
+    "dataloader": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/jest": "^26.0.9",
+    "babel-jest": "^26.2.2",
+    "dataloader": "^2.0.0",
+    "jest": "^26.2.2",
+    "typescript": "^3.9.7"
+  }
+}
