@@ -5,12 +5,13 @@
 ### createDataLoaderSession
 
 create a session and add to context when you create new context(per request).
-session function returns dataloader function from general function.
+session function returns dataloader function from normal function.
 
 #### code
 
 ```ts
 const session = createDataLoaderSession()
+// add it to context
 const getData = (keys: string[]) => {
   // find data keys: ['key1', 'key2', 'key3']
 
@@ -31,8 +32,7 @@ async function resolver(parent, args, context) {
 #### code
 
 ```ts
-const session = createDataLoaderSession()
-const getData = (keys: string[]) => {
+const resolver = (keys: string[]) => {
   type Item = {
     id: string
   }

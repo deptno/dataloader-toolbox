@@ -4,6 +4,7 @@
     "module": "commonjs",
     "strictNullChecks": false,
     "esModuleInterop": true,
+    "declaration": true,
     "outDir": "dist"
   },
   "exclude": [
